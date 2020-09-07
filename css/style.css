@@ -1,0 +1,123 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+    color: rgb(9, 77, 32);
+
+}
+
+img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.text {
+    position: absolute;
+    top: 47%;
+    left: 49%;
+    justify-content: center;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.slider.img1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 60%;
+    height: 56%;
+    border: rgb(16, 38, 238) solid;
+}
+
+.slider.img2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 60%;
+    height: 56%;
+    border: rgb(16, 38, 238) solid;
+}
+
+.slider.img3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 60%;
+    height: 56%;
+    border: rgb(16, 38, 238) solid;
+}
+
+.slider.img4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    width: 60%;
+    height: 56%;
+    border: rgb(16, 38, 238) solid;
+}
+
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+}
+
+.btn-next {
+    background-color: white;
+    border: white;
+    width: 10%;
+    height: 50%;
+    font-size: 19px;
+    cursor: pointer;
+    margin: 100px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn-next.hide {
+    display: none;
+}
+
+.btn-previous {
+    background-color: white;
+    border: white;
+    width: 12%;
+    height: 50%;
+    font-size: 19px;
+    cursor: pointer;
+    margin: 100px;
+    font-family: Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn-previous.hide {
+    display: none;
+}
+
